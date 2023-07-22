@@ -86,11 +86,11 @@
 	}
 
 		setInterval(function(){
-			if(moedas < 5000000){
+			if(moedas < 50000000){
 			moedas += c1.gerarMoedas()+c2.gerarMoedas()+c3.gerarMoedas()+c4.gerarMoedas()+c5.gerarMoedas()+c6.gerarMoedas();
 			}
-			if(moedas > 5000000){
-				moedas = 5000000;
+			if(moedas > 50000000){
+				moedas = 50000000;
 			}
 			document.getElementById('contador-moedas').innerHTML = moedas.toLocaleString('pt-BR');
 		},1000)
