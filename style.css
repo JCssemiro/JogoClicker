@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato';
+	user-select: none;
+}
+html,body{
+	height: 100%;
+}
+
+
+.game-box{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 50px 2%;
+}
+
+.game-box span#contador-moedas{
+	font-size: 50px;
+}
+
+.game-box h1{
+	font-weight: normal;
+	font-size: 26px;
+}
+
+.clicker-spot{
+	width: 250px;
+	height: 250px;
+	border: 1px solid blue;
+	border-radius: 50%;
+	line-height: 250px;
+	margin: 20px auto;
+	transition: .4s;
+	cursor: pointer;
+}
+
+
+.clicker-spot:hover{
+	background-color: blue;
+	color: white;
+}
+
+.clickers{
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.clicker-box{
+	margin: 0 auto;
+	padding: 15px 10px;
+	text-align: left;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+
+}
+
+.clicker-box input{
+	width: 100px;
+	height: 38px;
+	border-radius: 15px;
+	border: 0;
+	cursor: pointer;
+	display: block;
+	margin: 0 auto;
+	transition: .4s;
+}
+
+.clicker-box input:hover{
+	background-color: blue;
+	color: white;
+
+}
+
+
+.clicker-box h2{
+	font-weight: normal;
+	font-size: 20px;
+	margin-top: 15px;
+	display: inline-block;
+}
+
+.clicker-box p{
+	display: block;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+
+.clicker-box h3{
+	font-weight: normal;
+
+}
